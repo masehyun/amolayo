@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\asdfg\capstone\amolayo\lee\backend\v_env"
+VIRTUAL_ENV="C:\Users\SAMSUNG\Desktop\임형대학\capstone\project\backend\v_env"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

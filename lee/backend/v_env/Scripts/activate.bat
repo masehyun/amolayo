@@ -8,7 +8,11 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
+<<<<<<< HEAD
 set VIRTUAL_ENV=C:\Users\asdfg\capstone\amolayo\lee\backend\v_env
+=======
+set VIRTUAL_ENV=C:\Users\SAMSUNG\캡스톤2\amolayo\lee\backend\v_env
+>>>>>>> ee2d23a93d949b2067f58731d7bd8e39e1bd9f49
 
 if not defined PROMPT set PROMPT=$P$G
 
