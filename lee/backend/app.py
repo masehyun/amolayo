@@ -13,8 +13,11 @@ cors = CORS(app)
 def image():
     if(request.method == "POST"):
         bytesOfImage = request.get_data()
-        with open('image.jpeg', 'wb') as out:
+        save_path = "picture/image.jpeg"
+        with open(save_path, 'wb') as out:
             out.write(bytesOfImage)
         return "Image read"
 
+if __name__=="__main__":
+    app.run(host="192.168.45.70",port="19000")
 
